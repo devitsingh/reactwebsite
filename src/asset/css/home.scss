@@ -1,0 +1,49 @@
+@import 'var.scss';
+.bannerImg{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.homeDetailSec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    .homeBannerH2{
+        font-family: $great;
+        font-size: 60px;
+        color: $yellow;
+        font-weight: 500;
+        margin-bottom: $m10;
+    }
+    .homeBannerTitle{
+        font-size: 72px;
+        font-family: $roboto;
+        color: $white;
+        font-weight: 500;
+        margin-bottom: $m15;
+    }
+    .homeBannerTxt{
+        font-family: $roboto;
+        font-size: 16px;
+        color: $white;
+        width: 40%;
+        text-transform: capitalize;
+        margin: 0 auto;
+        margin-bottom: $m20;
+        text-align: center;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+}
+
+.MenuSec{
+    padding: 80px;
+    .MenuTopSec{
+        margin-bottom: $m50;
+    }
+}
