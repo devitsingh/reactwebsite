@@ -10,7 +10,7 @@ const About = () => {
         <React.Fragment>
                     <PageStrip
                         imgSrc="https://expert-themes.com/html/shangrila/images/background/4.jpg"
-                        pageTitle ="About Us"
+                        pageTitle ="About us"
                     />
 
                     <section className="about_page">
